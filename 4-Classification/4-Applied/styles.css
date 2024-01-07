@@ -1,0 +1,83 @@
+/*
+CSS RESET
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+/*
+END CSS RESET
+*/
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: max-content;
+}
+
+#cbWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+.boxCont label input {
+  margin: 0 10px;
+}
+
+#submitButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding: 10px;
+}
+
+#submitButton button {
+  padding: 5px 10px;
+}
